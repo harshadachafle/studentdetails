@@ -1,4 +1,4 @@
-package com.example.sringmongoproject.Controller;
+package com.example.springmongoproject.Controller;
 
 import com.example.springmongoproject.Entity.Student;
 import com.example.springmongoproject.Service.StudentServices;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping("api/v1/student")
+@RequestMapping("api/v1/students")
 public class StudentController {
 
     @Autowired

@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://amin:amin@cluster0.vf4i9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: LindaDb
